@@ -1,0 +1,686 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sot's paradise, or, The humours of a Derby-ale-house with a satire upon the ale.</title>
+            <author>Ward, Edward, 1667-1731.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1699</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A67521</idno>
+            <idno type="STC">Wing W755</idno>
+            <idno type="STC">ESTC R27061</idno>
+            <idno type="EEBO-CITATION">09634398</idno>
+            <idno type="OCLC">ocm 09634398</idno>
+            <idno type="VID">43867</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A67521)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 43867)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1345:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Sot's paradise, or, The humours of a Derby-ale-house with a satire upon the ale.</title>
+                  <author>Ward, Edward, 1667-1731.</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The second edition.</edition>
+               </editionStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1699.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"A satyr upon Derby-ale": p. 14-16.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:43867:1"/>
+            <pb facs="tcp:43867:1"/>
+            <p>Sot's Paradiſe: OR, The HUMOURS of a Derby-Ale-Houſe: WITH A SATYR UPON THE ALE.</p>
+            <p>
+               <hi>The Second Edition.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed in the Year, 1699.</p>
+         </div>
+         <div type="printer_to_the_reader">
+            <pb facs="tcp:43867:2" rendition="simple:additions"/>
+            <pb facs="tcp:43867:2"/>
+            <head>THE PRINTER TO THE READER</head>
+            <lg>
+               <l>
+                  <hi>REader</hi> what e'er the <hi>Author</hi> truly meant</l>
+               <l>I know not, but he told me his intent</l>
+               <l>Was not to Lampoon, or Reflect on any;</l>
+               <l>But thro' Neceſſity he writ, like many,</l>
+               <l>In <hi>Pinch-Gut Times,</hi> to get the <hi>Ready Penny.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Suppoſe <hi>(ſaid I)</hi> you've anger'd ſome Bravado,</l>
+               <l>I hate the ſtanding of a Baſtinado?</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Poh, poh,</hi> ſaid he, <hi>ſuch Dangers never heed,</hi>
+               </l>
+               <l>
+                  <hi>I'de ſuch a Cockſcomb Ridicule indeed,</hi>
+               </l>
+               <l>
+                  <hi>Each Sentence ſhould have</hi> Gaul <hi>and</hi> Venom
+<hi>in't,</hi>
+               </l>
+               <l>
+                  <hi>Which you, to recompence your Drubs, ſhall print:</hi>
+               </l>
+               <pb facs="tcp:43867:3"/>
+               <l>
+                  <hi>Mortals have oft, to their diſtruction, found,</hi>
+               </l>
+               <l>Poets, <hi>like</hi> Gods, <hi>can at a diſtance Wound.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>I thank you Sir <hi>(ſaid I)</hi> ſuch Verſe, I doubt,</l>
+               <l>S'But a poor Plaiſter for a batter'd Snout.</l>
+            </lg>
+            <lg>
+               <l>He preſt the Copy forward, I ſeem'd ſhie,</l>
+               <l>Till by theſe words he brought me to comply.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>The Characters are random writ, God knows,</hi>
+               </l>
+               <l>
+                  <hi>Slightly diſpatch'd; deſign'd, like</hi> Saleſmens
+<hi>Cloaths,</hi>
+               </l>
+               <l>
+                  <hi>For no one in particular, but where</hi>
+               </l>
+               <l>
+                  <hi>They beſt by chance ſhall fit, for them to wear.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Nay then, <hi>ſaid I,</hi> if any Sot can find</l>
+               <l>His Picture here, and not as his deſign'd,</l>
+               <l>And Angry be, I'll hire the Author then,</l>
+               <l>To whet his Wits, and Write as Keen again:</l>
+               <l>Since I can juſtly ſay (to ſave my Bacon)</l>
+               <l>I no Offence intend, I pray let none be taken.</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="5" facs="tcp:43867:3"/>
+            <head>Sot's Paradiſe: OR, The HUMOURS of a Derby-Ale-Houſe,</head>
+            <lg>
+               <l>WHEN anxious Thoughts my troubled Brains poſſeſt,</l>
+               <l>And the wild Hag rid ſtraddling o'er my Breaſt,</l>
+               <l>Loaded with Sorrow, I purſu'd my reſt.</l>
+            </lg>
+            <lg>
+               <l>My Pockets far too empty were for <hi>Wine.</hi>
+               </l>
+               <l>That <hi>Noble Juice!</hi> That <hi>Cordial</hi> of the
+<hi>Vine!</hi>
+               </l>
+               <l>By <hi>Humane Race</hi> ſo juſtly held
+<hi>Divine.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>To eaſe my Cares I ſtumbl'd into <hi>R</hi>—'s,</l>
+               <l>
+                  <hi>Sots Paradiſe,</hi> ſo Fam'd of latter days;</l>
+               <l>For <hi>Derby-Ale,</hi> it bears away the <hi>Bays.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Thro' Entry dark I th' <hi>Tippling Manſion</hi> ſought,</l>
+               <l>Whoſe cloſe Dimenſions rais'd a Jealous thought</l>
+               <l>I'd been <hi>Trappan'd</hi> and in a <hi>Mouſe-Trap</hi> caught.</l>
+            </lg>
+            <pb n="6" facs="tcp:43867:4"/>
+            <lg>
+               <l>Like <hi>Weeſel</hi> thro' a Cranny thus I crept;</l>
+               <l>And as he <hi>Screams,</hi> ſo I a <hi>Murm'ring</hi> kept;</l>
+               <l>Now Paus'd and Swore, then Gropt, and forward ſtep't.</l>
+            </lg>
+            <lg>
+               <l>Through ſtumbling craggy Ways the Godly ſteal</l>
+               <l>To Heaven, whence I concluded, without fail,</l>
+               <l>This narrow Path muſt lead to Heavenly Ale.</l>
+            </lg>
+            <lg>
+               <l>But in this <hi>Pot-gun</hi> Paſſage did I meet</l>
+               <l>A bulky <hi>Sot,</hi> who forc'd me to Retreat;</l>
+               <l>And ſhot me, like a Pellat, to the Street.</l>
+            </lg>
+            <lg>
+               <l>I gain'd the Barr by ſeveral Eſſays,</l>
+               <l>Where mourning Widow ſat with doleful Face;</l>
+               <l>And on each Hand a Room, but ne'er a Place.</l>
+            </lg>
+            <lg>
+               <l>I turn'd to th' Left, and did amongſt them ſqueeſe,</l>
+               <l>There heard ſome <hi>Belch,</hi> ſome <hi>Fart,</hi> and others <hi>Sneeze;</hi>
+               </l>
+               <l>Buzzing and Humming like a Hive of Bees.</l>
+            </lg>
+            <lg>
+               <l>This Room I did for Eaſe and Cleanneſs chuſe,</l>
+               <l>The <hi>Chappel</hi> call'd, from having <hi>Seats</hi> like
+<hi>Pews,</hi>
+               </l>
+               <l>Where grizled <hi>Sots</hi> ſit nodding o'er the
+<hi>News.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>With painful joſtling I a Place poſſeſt,</l>
+               <l>Sat down, then <hi>Belch'd</hi> and <hi>Farted</hi> like the reſt,</l>
+               <l>Thump'd with my Fiſt, and cry'd I broke a Jeſt.</l>
+            </lg>
+            <pb n="7" facs="tcp:43867:4"/>
+            <lg>
+               <l>In comes a Female Tapſtreſs, Pale and Wan,</l>
+               <l>Sod'n with the fumes of what ſhe'd Drank and Drawn,</l>
+               <l>Looks worſe than the green Girl who wants a Man.</l>
+            </lg>
+            <lg>
+               <l>Sir do you pleaſe, I pray, to have your Ale</l>
+               <l>Drawn New, or with a little daſh of Stale?</l>
+               <l>I gave her anſwer, and ſhe ſoon turn'd Tail.</l>
+            </lg>
+            <lg>
+               <l>One ſage old Bard next Chimney Nook was got,</l>
+               <l>Fix'd as a <hi>Statue,</hi> motionleſs he ſat,</l>
+               <l>His Eyes regarding neither Who nor What.</l>
+            </lg>
+            <lg>
+               <l>This ſpeechleſs Image moſt I did admire,</l>
+               <l>No <hi>Derby</hi> could this Mortal Lump Inſpire,</l>
+               <l>Who like Old Puſs, ſat Purring o'er the Fire.</l>
+            </lg>
+            <lg>
+               <l>One whim he had was often put in play,</l>
+               <l>By Name ſalute this Monumental Clay,</l>
+               <l>He Huffs and Puffs, ſtarts up and runs away.</l>
+            </lg>
+            <lg>
+               <l>Then in thruſts one, ſtrives hard to get a Place;</l>
+               <l>Witty in Words, and Satyr in his Face,</l>
+               <l>Thus boldly ſpeaks in <hi>Derby-Ales</hi> diſgrace.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Pox on't,</hi> ſaid he, <hi>I Yeſterday ſtept in,</hi>
+               </l>
+               <l>
+                  <hi>And drank Nine Tankards to divert my Spleen,</hi>
+               </l>
+               <l>
+                  <hi>It fail'd, and now I'm come to drink Nineteen.</hi>
+               </l>
+            </lg>
+            <pb n="8" facs="tcp:43867:5"/>
+            <lg>
+               <l>
+                  <hi>At</hi> Squire<hi>'s I heard a</hi> Beaux <hi>ſo Damn and Sink it,</hi>
+               </l>
+               <l>
+                  <hi>Four Tankards numb'd his Wits, you wou'd not think it;</hi>
+               </l>
+               <l>
+                  <hi>He ſwore we all are Clod-skul'd Sots who drink it.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This much diſgruntl'd all the ſwilling Herd,</l>
+               <l>Who grin'd, and at him enviouſly ſtar'd,</l>
+               <l>In anſwer not a Mortal wag'd his Beard.</l>
+            </lg>
+            <lg>
+               <l>One Gapes, a ſecond Nods, a third he Winks,</l>
+               <l>A fourth he Smoaks, a fifth blows Pipe and Drinks,</l>
+               <l>Not One in Ten that either <hi>Talks</hi> or
+<hi>Thinks,</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Thus ſeldom <hi>Speak</hi> unleſs 'tis to complain</l>
+               <l>Of Phthiſick, Stone, the Gout, or ſome old Pain</l>
+               <l>That grieves them ſorely, when the Moon's i'th'
+<hi>Wane.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Here worn-out <hi>Sinners</hi> at their Ails repine,</l>
+               <l>(The Herd thus ſympathetically joyn)</l>
+               <l>All Grunting o'er their <hi>Hogwaſh-Ale</hi> like
+<hi>Swine.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Up riſes now and then, a brawny <hi>Sot,</hi>
+               </l>
+               <l>Before the Fire he turns his Arſe about,</l>
+               <l>Hauks up his Flegm, then Spitting ſtaggers out.</l>
+            </lg>
+            <lg>
+               <l>With me this ſmoaky Clime did not agree,</l>
+               <l>Theſe <hi>Sots</hi> too Grave were, that's too Dull, for me;</l>
+               <l>No Talk is worſe than much Loquacity.</l>
+            </lg>
+            <pb n="9" facs="tcp:43867:5"/>
+            <lg>
+               <l>Willing to take a General <hi>Survey,</hi>
+               </l>
+               <l>T<g ref="char:punc">▪</g> obſerve the <hi>Difference</hi> in <hi>Mortal Clay,</hi>
+               </l>
+               <l>I ſtole from thence, to the next Room made way.</l>
+            </lg>
+            <lg>
+               <l>This call'd the <hi>Bear-Garden,</hi> where at a Table</l>
+               <l>I heard, amongſt a wild Promiſcuous <hi>Rabble,</hi>
+               </l>
+               <l>More <hi>Tongues confus'd</hi> then ere were known at
+<hi>Babel.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>A <hi>Beau</hi> repeating to his friend a <hi>Novel,</hi>
+               </l>
+               <l>Two <hi>Lawyers</hi> in <hi>Diſpute</hi> began to
+<hi>Cavel,</hi>
+               </l>
+               <l>A fifth, with Chalk, was ſcoring out an <hi>Oval.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And, being as cunning as a <hi>Hocus Pocus,</hi>
+               </l>
+               <l>Had laid a Wager with a <hi>John</hi> a <hi>Nokus,</hi>
+               </l>
+               <l>He'd with a <hi>Thred</hi> and <hi>Pins</hi> find out the
+<hi>Focus.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>A <hi>Scholar,</hi> next, of <hi>Batchelor's</hi> Degree,</l>
+               <l>Standing four Years at <hi>
+                     <g ref="char:V">Ʋ</g>niverſitie,</hi>
+               </l>
+               <l>Roſe up and flung a <hi>Witticiſm</hi> at me.</l>
+            </lg>
+            <lg>
+               <l>I lik'd the <hi>Sport,</hi> and did retort the ſame;</l>
+               <l>I <hi>hit</hi> him <hi>Home</hi> according to my
+<hi>Aim;</hi>
+               </l>
+               <l>But could not get his <hi>Hair Brain'd fury</hi> tame.</l>
+            </lg>
+            <lg>
+               <l>So <hi>Learn'd</hi> he ſeem'd, ſo <hi>Witty</hi> in
+<hi>Diſcourſe,</hi>
+               </l>
+               <l>He'd hold me all the <hi>Money</hi> in his
+<hi>Purſe,</hi>
+               </l>
+               <l>Tho' I ſeem'd <hi>Man,</hi> he'd prove me but a
+<hi>Horſe.</hi>
+               </l>
+            </lg>
+            <pb n="10" facs="tcp:43867:6"/>
+            <lg>
+               <l>I gravely ſaid it did his <hi>Skill</hi> ſurpaſs,</l>
+               <l>And, in return, I inſtanc'd him a <hi>Caſe</hi>
+               </l>
+               <l>Wherein a <hi>Scholar</hi> prov'd himſelf an
+<hi>Aſs.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>He ſmelt a <hi>Rat,</hi> and found he was miſtaken,</l>
+               <l>Shut up his <hi>Brains,</hi> true knowledge had forſaken,</l>
+               <l>And dwindl'd into <hi>News</hi> to ſave his
+<hi>Bacon.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>A <hi>little Captain,</hi> tho' of <hi>great Renown,</hi>
+               </l>
+               <l>Cock'd up his Hat, ſwore <hi>Zoons;</hi> and then ſat down,</l>
+               <l>Out-chatter'd all the <hi>Magpies</hi> in the Town.</l>
+            </lg>
+            <lg>
+               <l>He talk'd of <hi>Heros, Hectors, and Bravadoes,</hi>
+               </l>
+               <l>Of <hi>Gaſhes, Slaſhes, Cuts,</hi> and
+<hi>Carbonadoes,</hi>
+               </l>
+               <l>Of <hi>Cannons, Mortars, Bombs</hi> and <hi>Hand Granadoes.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <hi>Valiant Pigmy,</hi> eagre to declare</l>
+               <l>His <hi>Broils</hi> in <hi>Taverns,</hi> not <hi>Exploits</hi> in <hi>War,</hi>
+               </l>
+               <l>Teas'd me with <hi>Nonſence</hi> more than I could bear.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Di'lect</hi> he retain'd he learn'd at Nurſe,</l>
+               <l>And that his <hi>Words</hi> might be of greater force,</l>
+               <l>He tagg'd each <hi>Sentence</hi> with an <hi>Oath</hi> or
+<hi>Curſe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>A <hi>Dapper Blade</hi> was Squeez'd among the reſt,</l>
+               <l>Who would have made each <hi>Word</hi> he ſpoke a
+<hi>Jeſt;</hi>
+               </l>
+               <l>Aim'd at <hi>much Wit,</hi> but <hi>little</hi> he poſſeſt.</l>
+            </lg>
+            <pb n="11" facs="tcp:43867:6"/>
+            <lg>
+               <l>Like <hi>Ill Rung Bells</hi> he did <hi>Confus'dly</hi> Nock</l>
+               <l>His <hi>Ill Tun'd Words</hi> to hammer out a
+<hi>Joak,</hi>
+               </l>
+               <l>Whoſe <hi>Tongue</hi> out-run the <hi>Larum</hi> of a
+<hi>Clock.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This <hi>Mortal</hi> prov'd a <hi>Midnight Magiſtrate,</hi>
+               </l>
+               <l>Who ask's us, <hi>Why ſo drunk, and why ſo late?</hi>
+               </l>
+               <l>
+                  <hi>Little</hi> in <hi>Perſon,</hi> tho' in <hi>Office</hi> Great.</l>
+            </lg>
+            <lg>
+               <l>He Huckles much, tho' what by that he means,</l>
+               <l>Let <hi>Oldish, Shirley,</hi> or ſuch Learned Brains,</l>
+               <l>T' inform the World, imploy their Skilful Pens.</l>
+            </lg>
+            <lg>
+               <l>Next ſat a <hi>Drone,</hi> whoſe VVits had but a Dull-Edge,</l>
+               <l>His <hi>Gravity</hi> and nice <hi>Grammatick</hi> Knowledge,</l>
+               <l>Spoke him ſome Senior <hi>Cock's comb</hi> of a
+<hi>Colledge.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>He Learned Reaſons offer'd unto ſome,</l>
+               <l>VVhy <hi>Gerounds</hi> end in <hi>di,</hi> in <hi>do,</hi> or
+<hi>dum,</hi>
+               </l>
+               <l>They grave attention gave, and ſat <hi>hum Drum.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Next him a Spark bedaw'd with Golden Twine,</l>
+               <l>So very <hi>Grave,</hi> and eke ſo very <hi>Fine,</hi>
+               </l>
+               <l>I took him for ſome <hi>Stateſman</hi> on Deſign.</l>
+            </lg>
+            <lg>
+               <l>Some humble <hi>Lord,</hi> ſo generouſly free,</l>
+               <l>Seeking <hi>Applauſe</hi> and <hi>Popularity,</hi>
+               </l>
+               <l>Came here to Court the good <hi>Mobility.</hi>
+               </l>
+            </lg>
+            <pb n="12" facs="tcp:43867:7"/>
+            <lg>
+               <l>I turn'd about, and view'd him for a ſpace,</l>
+               <l>No Sword he'd on, and in his <hi>Mein</hi> no Grace,</l>
+               <l>
+                  <hi>Dulneſs</hi> inſtead of <hi>Grandure</hi> in his Face.</l>
+            </lg>
+            <lg>
+               <l>My Judgment err'd, I quickly found its failure,</l>
+               <l>No <hi>Honour</hi> in his Speech, in's Looks no
+<hi>Valour,</hi>
+               </l>
+               <l>A <hi>Lord,</hi> thought I! Wounds, this muſt be a
+<hi>Taylor.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>When e're he ſpoke, it matter was of fact,</l>
+               <l>So Emphatical his Words, and ſo compact,</l>
+               <l>No <hi>Strowling Player</hi> could be more exact.</l>
+            </lg>
+            <lg>
+               <l>Againſt him <hi>Teague,</hi> an <hi>Irish</hi> Barber ſat,</l>
+               <l>Who has a Thouſand Whimſies in his Pate,</l>
+               <l>Makes <hi>Wigs,</hi> tunes <hi>Bagpipes,</hi> does the Lord knows what.</l>
+            </lg>
+            <lg>
+               <l>By chance, ſaid I, <hi>What is't a Clock I Pray?</hi>
+               </l>
+               <l>After ſome time he'd ſtudy'd what to ſay,</l>
+               <l>He Anſwer'd, <hi>By my Shoul 'tis Shaturday.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Each loving each, as truly as a Brother,</l>
+               <l>In all things act alike, <hi>Speak, Drink</hi> and
+<hi>Smother,</hi>
+               </l>
+               <l>Delight, as <hi>Monkeys,</hi> to <hi>Buffoon</hi> each other.</l>
+            </lg>
+            <lg>
+               <l>Like the <hi>Twin-Stars,</hi> theſe two United are</l>
+               <l>It's no great matter whether both appear,</l>
+               <l>If you ſee one, in him the other's there.</l>
+            </lg>
+            <pb n="13" facs="tcp:43867:7"/>
+            <lg>
+               <l>The <hi>Ale</hi> at laſt to theſe weak Noddles ſtole,</l>
+               <l>Supply'd the want of <hi>Brains</hi> in every
+<hi>Skull,</hi>
+               </l>
+               <l>And made them <hi>Merry,</hi> tho' it made me
+<hi>Dull.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <hi>Taylor</hi> begg'd of his <hi>Reverſe</hi> a
+<hi>Tune,</hi>
+               </l>
+               <l>
+                  <hi>Teague</hi> for his <hi>Bagpipes</hi> ſent, and fix'd his <hi>Drone,</hi>
+               </l>
+               <l>Then Play'd <hi>Dundee</hi>'s Farwel, and Sung <hi>O hone.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This pleas'd the <hi>Mob,</hi> and made them hoop and hollow,</l>
+               <l>As when the <hi>Brindled</hi> Dog, againſt the
+<hi>Fallow,</hi>
+               </l>
+               <l>Pins down the <hi>Bull,</hi> and makes him Roar and Bellow.</l>
+            </lg>
+            <lg>
+               <l>I Teas'd and Tir'd with this <hi>Bear-Garden</hi> Play,</l>
+               <l>In doleful dumps did for Ten Tankards Pay,</l>
+               <l>And <hi>Sick</hi> not <hi>Drunk</hi> I homewards ſteer'd my way.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="14" facs="tcp:43867:8"/>
+            <head>A SATYR UPON Derby-Ale.</head>
+            <lg>
+               <l>BASE and Ignoble Flegm, dull DERBY-ALE,</l>
+               <l>Thou canſt o'er none but Brainleſs <hi>Sots</hi> prevail;</l>
+               <l>Chokes them if <hi>New,</hi> and <hi>Sowr</hi> art if
+<hi>Stale.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Thou drown'ſt no Care, or do'ſt thou Elevate;</l>
+               <l>Inſtead of quenching Drouth, do'ſt Drouth create,</l>
+               <l>Makes us dull <hi>Sots</hi> at an expenſive rate.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Old Engliſh Ale,</hi> which Upſtart Fops diſdain</l>
+               <l>Brew'd by our Grandſires, Chear'd the Heart of Man,</l>
+               <l>Quench'd Drouth with pleaſure, and prolong'd their Span.</l>
+            </lg>
+            <lg>
+               <l>But thou! <hi>Poor Slime,</hi> thou art not <hi>Ale,</hi> for why?</l>
+               <l>Thou neither Cheares the Heart, or Brisks the Eye;</l>
+               <l>The more we Drink the more we ſtill are Dry.</l>
+            </lg>
+            <pb n="15" facs="tcp:43867:8"/>
+            <lg>
+               <l>Rare Fat'ning <hi>Swill,</hi> to Belly up Lean Gueſt,</l>
+               <l>It feeds a Man in fix Months to a Beaſt,</l>
+               <l>And gives him bulk for a <hi>Church-Ward'n</hi> at leaſt.</l>
+            </lg>
+            <lg>
+               <l>Puff'd up with thee, Diſpirited, Debas'd,</l>
+               <l>We into <hi>Gray</hi>'s-Inn reel (O Pump be prais'd)</l>
+               <l>There Quench that Drouth thy Treacly Dregs have rais'd.</l>
+            </lg>
+            <lg>
+               <l>One hearty Draught prepares for Pipe of Funk,</l>
+               <l>Three Tankards whets my Appetite for Punk,</l>
+               <l>Four makes me Sick; but Ten wont make me Drunk.</l>
+            </lg>
+            <lg>
+               <l>O'er <hi>Nipperkins</hi> of thee ſix Hours I ſit,</l>
+               <l>Till ſpent my Total, and benum'd my Wit,</l>
+               <l>Thus nothing have, and juſt for nothing fit.</l>
+            </lg>
+            <lg>
+               <l>Our Wits, or Thoughts, thou never canſt advance</l>
+               <l>Above th' affairs of <hi>Poland,</hi> or of
+<hi>France,</hi>
+               </l>
+               <l>Wounds! Thou'rt a Booby to a Cup of <hi>Nantes.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Thou'rt fit for thoſe who are from Troubles free,</l>
+               <l>Thou Cur'ſt no <hi>Spleen</hi> thou art unfit for me,</l>
+               <l>I'd's live almoſt drink <hi>Adam</hi>'s Ale as thee.</l>
+            </lg>
+            <lg>
+               <l>Thou mak'ſt us Fat in little time, 'tis true,</l>
+               <l>The ſame will <hi>Swins-Fleſh</hi> and <hi>Potatoes</hi> do;</l>
+               <l>They covet Fleſh, not Brains, that follow you.</l>
+            </lg>
+            <pb n="16" facs="tcp:43867:9"/>
+            <lg>
+               <l>Thou Noble Ale! Mere Caudle, and unfit</l>
+               <l>For Men of Care to drink or Men of Wit,</l>
+               <l>Poor <hi>Engliſh Coffee</hi> for a ploding <hi>Cit.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Guzzle for Carmen, Foggy and unfine,</l>
+               <l>For nothing fit but to Exhauſt our Coin,</l>
+               <l>Water to Brandy, and ſmall-Beer to Wine.</l>
+            </lg>
+            <lg>
+               <l>Forgive my drowſy Muſe where e'er ſhe nods,</l>
+               <l>She's not Inſpir'd or Tutor'd by the Gods,</l>
+               <l>She Rhimes o'er <hi>Ale,</hi> others o'er <hi>Wine,</hi> that's odds.</l>
+            </lg>
+            <lg>
+               <l>What if you ſay ſhe's Dull, it's no great matter,</l>
+               <l>Croſs Muddy Ale's a heavy Theam for Satyr,</l>
+               <l>
+                  <hi>Tom Brown</hi> be judge, or honeſt <hi>Ben Bridgewater.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:43867:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
